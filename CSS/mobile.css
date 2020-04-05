@@ -1,0 +1,49 @@
+/*************responsive mobile****************/
+@media (max-width:500px){
+
+/* menu */
+
+ .main-menu {
+  display: none;
+}   
+.logo{
+  display: none;
+}
+.logoMobile{
+  float: left;
+  padding: 5px;
+}
+.menu-toggle{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: var(--primary-color);
+  text-align: right;
+  box-sizing: border-box;
+  color: var(--light-color);
+  font-size: 30px;
+} 
+.menuToggleOpen{
+  position: absolute;
+  display: block;
+  padding: 0 100px;
+  text-align: center;
+  left: 0%;
+  right: 0%;
+  top: 13%;
+  bottom: 0%; 
+}  
+
+  
+/* https://www.youtube.com/watch?v=VpzYv8QQNK0
+para hacer el menu movil horizontal con iconos
+ */
+/* MENU APP */
+
+  
+/* showcase */
+  .showcase {
+      display: none;
+  }   
+  
+}

@@ -1,0 +1,44 @@
+header{
+  margin: 100px auto;
+  width: 1200px;
+  height: 230px;
+  background-color: red;
+}
+
+div.contenedor{
+  width: 200px;
+  height: 230px;
+  float: left;
+}
+#uno{
+  background-color: #478574;
+}
+#dos{
+  background-color: #D4FFF3;
+}#tres{
+  background-color: #87FFDF;
+}#cuatro{
+  background-color: #6A807A;
+}#cinco{
+  background-color: #6CCCB2;
+}#seis{
+  background-color: rgb(114, 145, 114);
+}
+i{
+  display: block;
+  padding: 20px;
+  margin: 50px;
+  background: rgba(255, 255, 224, 0.829);
+  border-radius: 20px;
+  
+}
+i:hover {
+  transition: all 0.5s ease-in-out;    
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
+a{
+  text-decoration:none;
+  color: #333;
+
+}
